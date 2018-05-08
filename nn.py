@@ -3,7 +3,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 
-# vector to
+# vector to multiple by weight matrix
 x = tf.placeholder(tf.float32, [None, 784])
 
 # weight matrix
